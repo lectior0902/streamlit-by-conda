@@ -21,7 +21,8 @@ with st.expander("🖼️ 오늘의 전시 작품", expanded = True):
     with col2:
         st.write(
                   """
-                  **작품 설명:** viva la vida. 이 작품은 추상화입니다. 
+                  **작품 설명:** 
+                  viva la vida. 이 작품은 추상화입니다. 
                   감상을 아래의 방명록에 남겨주세요❤️
                   (이미지 출처: Unplash)
                   """)
@@ -73,5 +74,6 @@ if submitted:
             st.image(result.image_data, caption=f"{user_name} 님의 작품")
             
     with visit_col2:
-        st.markdown(f"""**기분:** {emoji} | **만족도:** {rating}  **소감:** {comment}  --- *방문일: {visit_date}*""")
+        st.markdown(f"""**기분:** {emoji} | **후기:** {rating}  **소감:** {comment}  --- *방문일: {visit_date}*""")
+
 
