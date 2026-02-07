@@ -74,7 +74,8 @@ if submitted:
             st.image(result.image_data, caption=f"{user_name} 님의 작품")
             
     with visit_col2:
-        st.markdown(f"""**기분:** {emoji} | **후기:** {rating}  **소감:** {comment}  *{visit_date}*""")
+        st.markdown(f"""**기분:** {emoji} | **후기:** {rating} | **소감:** {comment} | *{visit_date}*""")
+
 
 
 
