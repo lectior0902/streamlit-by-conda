@@ -41,7 +41,7 @@ with st.form("guestbook_form"):
         st.write("🎨**그림 방명록 (나만의 작품 남기기)**")
         
         # 드로잉 캔버스 추가
-        canvas_result = st_canvas(fill_color = "rgba(255, 165, 0, 0.3)",
+        result = st_canvas(fill_color = "rgba(255, 165, 0, 0.3)",
                                   stroke_width = 3,
                                   stroke_color = "#000000",
                                   background_color = "#ffffff",
